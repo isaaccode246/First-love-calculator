@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(212, 60, 85);
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 70px;
+    padding: 30px;
+    background: linear-gradient(rgb(197, 28, 56), rgb(236, 102, 124));
+    border-radius: 2em;
+}
+
+.header .logo  p{
+    font-family:'Merienda One', cursive;
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(221, 193, 193);
+    cursor: pointer;
+    
+}
+
+.resultbox {
+    height: 80px;
+    /* border: 1px black solid; */
+    border-radius: 10px;
+    width: 400px;
+    margin: 50px 150px 0px 250px;
+    color:  rgb(221, 193, 193);
+}
+#content {
+    text-align: center;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 2px 0px;
+}
+
+#reload {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 100px 0px 150px;
+    width: 100px;
+    border-radius: 30px; 
+    border: none;
+    color:  rgb(230, 169, 169);;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu a {
+    padding: 0px 25px;
+    text-decoration: none;
+    color:  rgb(221, 193, 193);
+    cursor: pointer;
+    
+}
+
+.menu a.active {
+    text-decoration: rgb(221, 193, 193) underline;
+ }
+ 
+
+.menu a:hover {
+   text-decoration: rgb(221, 193, 193) underline;
+   
+}
+
+/* Input style section */
+.mainBox {
+    margin: 100px 400px auto;
+    color: rgb(221, 193, 193);
+    border: none;
+}
+
+/* Input Box style section */
+.both-input {
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    width: 100%;   
+}
+
+#first-input {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+#second-input {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+#play {
+    font-size: 28px;   
+    width: 100%;      
+    padding: 10px;   
+    color: rgb(221, 193, 193);
+    background-color: rgb(212, 60, 85);
+    border-color: rgb(212, 60, 85);
+    cursor: pointer;
+}
+
+
+.mainBox form input {
+    border-radius: 10px;
+    /* position: relative;
+    display: inline-block;
+    z-index: 1;
+    overflow: hidden; */
+}
+

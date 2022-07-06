@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Tutorial</title>
+    <!-- <link rel="stylesheet" href="loginValidation.css"> -->
+    <link rel="stylesheet" href="Home.css">
+    <!-- <script src="https://kit.fontawesome.com/b99e675b6.js"></script> -->
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <!-- Logo -->
+            <div class="logo">
+                <p>Love Cal</p>
+            </div>
+            <div class="menu">
+                    <a href="#" class="active">Home</a>
+                    <a href="home.html">Quit</a>
+            </div>
+        </div>
+        <div class="resultbox">
+            <div id="content">
+                <em id="emphasis">Check here for your result after the names are written in the input!</em>
+            </div>
+            <button type="reset" id="reload" onclick="reload()">Reload</button>
+        </div>
+
+        <div class="mainBox">
+
+            <form onsubmit="return gameFlow();">
+                <!-- First input section -->
+
+                <div id="first-input">
+                <label for="name-input">Input your babe name:</label>
+                <input type="text" id="input" class="both-input">
+                <div class="err-msg" id="un-err-msg">
+                </div>
+                </div>
+                <!-- Second input section -->
+                <div id="second-input">
+                <label for="get" id="second-name-input">Input your boo name:</label>
+                <input type="text" id="input-2" class="both-input">
+                <div class="err-msg" id="pn-err-msg">
+                </div>
+
+                </div>
+                <!-- The click section -->
+                <button id="play" type="button" onclick="processGame()">play</button>
+            </form>
+        </div>
+        </div>
+    </div>
+<script src="Home.js"></script>
+</body>
+</html>
